@@ -67,7 +67,6 @@ prefix='WebSOA_'
 #Directorio donde se guardan las copias de la DB
 #NOTA: Tanto en el master/slave será la misma carpeta de acuerdo a la configuración de este script 
 dirsave='/root' 
-
 #=======================================#
 #           FECHA DE RESPALDO           #
 #=======================================#
