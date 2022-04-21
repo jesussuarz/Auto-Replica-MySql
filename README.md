@@ -16,6 +16,7 @@ Algunos datos para tener en cuenta:
 <p align="center">
 #================================================================#
 </p>
+
 Nombre : Auto Replica
 
 Autor : Jesus D. Suarez H.
@@ -49,24 +50,25 @@ Este codigo solo debe ejecutarse en su servidor replica, jamas y nunca en el ser
 #================================================================#
 </p>
 Mejoras que se pueden realizar de este código a futuro
-
+<ul><li>
 Implementar un reintentar si hay un error en la contraseña de ssh maestro
-
+</li><li>
 Barra de progreso en cada uno de los procesos con el paquete PV ej: [===> ] 20%
-
+</li><li>
 Detectar si existe la contraseña agregada en el archivo my.cnf de ser asi inicie sin pedir contraseña
-
+</li><li>
 Detectar si no existe configuración de usuario en /root/.my.cnf y en ese caso solicitar la contraseña
-
+</li><li>
 Obtener bases de datos a realizar DROP desde my.cnf si esta definido, si no obtener todas
-
+</li><li>
 Detectar si se encuentra instalado mysql, de lo contrario instalarlo
-
+</li><li>
 Crear usuario de replica automaticamente con permisos
-
+</li><li>
 Configurar bases de datos en el proceso de ejecucion
-
+</li><li>
 Conectarse a SSH con sshkey para luego usar ssh-agent para no solicitar multiples veces la contraseñas
+  </li> </ul>
 <p align="center">
 #================================================================#
 </p>
